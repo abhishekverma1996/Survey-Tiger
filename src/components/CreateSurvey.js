@@ -1,6 +1,5 @@
 import React from 'react';
 import QuestionsAndAnswers from './QuestionsAndAnswers';
-import Questions from './QuestionsAndAnswers';
 import TakeSurvey from './TakeSurvey';
 
 class CreateSurvey extends React.Component{
