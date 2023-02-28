@@ -14,7 +14,7 @@ class QuestionsAndAnswers extends React.Component{
         if(this.props.selected === "Single select" && this.id<=2){
             this.setState({answers: {...this.state.answers, [this.id]:""}})
         }
-        if((this.props.selected === "Multi-select" && this.id==4) ||(this.props.selected == "Single select" && this.id==2)){
+        if((this.props.selected === "Multi-select" && this.id===4) ||(this.props.selected === "Single select" && this.id===2)){
             this.setState({addNpublish: true})
             //this.id=1;
         }
